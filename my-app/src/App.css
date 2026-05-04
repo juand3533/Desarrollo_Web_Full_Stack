@@ -182,3 +182,31 @@
     border-right-color: var(--border);
   }
 }
+.footer {
+  background-color: #2e303a;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.book {
+  padding: 16px;
+  margin: 10px;
+  height: 50%;
+  width: 25%;
+  text-align: left;
+  text-indent: 15%;
+  border: 2px solid black;
+}
+.book h3{
+  color: #08060d;
+  text-align: center;
+}
+.book img{
+  width: 75%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
