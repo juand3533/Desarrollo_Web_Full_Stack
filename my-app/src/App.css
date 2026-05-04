@@ -1,4 +1,9 @@
-.counter {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*.counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -209,4 +214,4 @@
   height: 100%;
   display: block;
   margin: auto;
-}
+}*/
