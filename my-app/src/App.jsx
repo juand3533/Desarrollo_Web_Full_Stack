@@ -20,7 +20,10 @@ function App() {
       </div>
       <Landing></Landing>
         <Login></Login>
-        <Book></Book>
+        <div className="flex flex-wrap justify-center gap-x-6 gap-y-6">
+            <Book></Book>
+        </div>
+
       <Footer></Footer>
     </div>
   )
