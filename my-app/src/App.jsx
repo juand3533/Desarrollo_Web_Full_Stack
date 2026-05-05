@@ -7,11 +7,13 @@ function App() {
 
 
   return (
-    <>
-      <SearchBar ></SearchBar>
+    <div className="flex flex-col gap-10">
+      <div className="mb-6">
+          <SearchBar ></SearchBar>
+      </div>
       <Book></Book>
       <Footer></Footer>
-    </>
+    </div>
   )
 }
 
