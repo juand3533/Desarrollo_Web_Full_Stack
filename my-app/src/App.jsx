@@ -4,18 +4,22 @@ import './App.css'
 import Footer from "./components/footer.jsx";
 import Cart from "./components/Cart.jsx";
 import Profile from "./components/profile.jsx";
+import Landing from "./components/landing.jsx";
+import Login from "./components/login.jsx";
 
 function App() {
 
 
   return (
     <div className="flex flex-col gap-10">
-      <div className="mb-6">
+      <div className="mb-6 flex flex-row-reverse gap-3">
           <SearchBar ></SearchBar>
           <Cart></Cart>
           <Profile></Profile>
       </div>
-      <Book></Book>
+      <Landing></Landing>
+        <Login></Login>
+        <Book></Book>
       <Footer></Footer>
     </div>
   )
